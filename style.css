@@ -47,20 +47,41 @@ h2 {
 
 .author_01 {
 	font-size: 22px;
+	float: left;
+	margin: 30px 0 0 10px;
 }
 
 .blog-post {
-	
 	width: 75%;
 	float: left;
 	padding-right: 30px;
 }
+
+.blog-post img {
+	height: 150px;
+	width: auto;
+
+}
+
+
 .other-post {
 	
 	width: 25%;
 	float: left;
 }
+
+.other {
+	margin-bottom: 40px;
+}
 .author-box {
 	padding-top: 20px;
 	border-top: 1px solid #808080;
+
+}
+
+.author-box img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: left;
 }
