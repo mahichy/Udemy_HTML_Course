@@ -1,3 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
 body{
 	font-family: Helvetica Neue, Arial;
 	font-size: 18px;
@@ -11,18 +18,21 @@ color: #8b8b8b;
 
 h1 {
 	font-size: 40px;
+	margin-bottom: 20px;
 }
 
 h2 {
 	font-size: 25px;
+	margin-bottom: 10px
 }
 
 
 
 .main-text {
 	text-align: justify;
+	margin-bottom: 20px;
 }
 
-#bird {
+.bird {
 	font-size: 22px;
 }
