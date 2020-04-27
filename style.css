@@ -5,7 +5,7 @@ body{
 }
 
 h1,h2 {
-color: green;
+color: #8b8b8b;
 
 }
 
@@ -17,8 +17,12 @@ h2 {
 	font-size: 25px;
 }
 
-p {
-	
-	
+
+
+.main-text {
 	text-align: justify;
+}
+
+#bird {
+	font-size: 22px;
 }
