@@ -3,6 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 
 body{
@@ -26,6 +31,13 @@ h2 {
 	margin-bottom: 10px
 }
 
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin: 20px auto 0 auto;
+}
 
 
 .main-text {
@@ -33,6 +45,22 @@ h2 {
 	margin-bottom: 20px;
 }
 
-.bird {
+.author_01 {
 	font-size: 22px;
+}
+
+.blog-post {
+	
+	width: 75%;
+	float: left;
+	padding-right: 30px;
+}
+.other-post {
+	
+	width: 25%;
+	float: left;
+}
+.author-box {
+	padding-top: 20px;
+	border-top: 1px solid #808080;
 }
